@@ -1,0 +1,6 @@
+{
+  "deploy": {
+    "module": "main:app",
+    "python_version": "3.10"
+  }
+}

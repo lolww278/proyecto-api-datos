@@ -1,19 +1,14 @@
-# Screenshot
-![](docs/screenshot.png)
-
-# install dependencies
-- pip install flask
-- pip install flask-mysqldb
-
-# issues
-- sudo apt-get install libmysqlclient-dev
-http://127.0.0.1:8000
-
 acceder al entorno
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 cd myvenv 
 cd .\Scripts\ 
 .\activate
 
+
+
+pip install fastapi
+pip install uvicorn
+pip install pydantic
+pip install mysql-connector-python
 
 fastapi dev main.py
